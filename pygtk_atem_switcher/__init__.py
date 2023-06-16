@@ -10,8 +10,8 @@ from os import environ
 from gi.repository import Gtk
 from rtoml import load
 
-from gui import PyATEMSwitcherGui
-from switcher import PyATEMSwitcher
+from .gui import PyATEMSwitcherGui
+from .switcher import PyATEMSwitcher
 
 LOGLEVELS = {
     "debug": logging.DEBUG,
